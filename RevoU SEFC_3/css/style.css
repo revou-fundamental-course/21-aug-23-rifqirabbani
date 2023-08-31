@@ -1,0 +1,226 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mobile Version */
+@media only screen and (max-width: 600px) {
+  .header-wrapper {
+    flex-direction: column;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .logo {
+    margin-bottom: 14px;
+  }
+
+  .judul h1 {
+    font-size: 18px;
+  }
+
+  .main-form {
+    width: 100%;
+  }
+
+  .main-form table {
+    width: 100%;
+  }
+
+  .main-pesan {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-data {
+    margin: 0px auto;
+  }
+
+  footer {
+    position: relative;
+  }
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 16px 24px;
+}
+
+.header-wrapper>.menu {
+  display: flex;
+}
+
+.btn-menu {
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.btn-menu:hover {
+  background-color: gainsboro;
+}
+
+.btn-menu:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.btn-menu:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 24px;
+}
+
+.img-slideshow {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#our-profile {
+  display: flex;
+  padding: 16px 24px;
+}
+
+#achievement {
+  display: flex;
+  padding: 16px 24px;
+}
+
+.profile-img {
+  margin: 60px 0 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.circle {
+  margin: 30px;
+}
+
+.circle img {
+  border: 1px solid gray;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0px auto 5px;
+}
+
+#message-us {
+  display: flex;
+  padding: 16px 24px;
+
+}
+
+.main-form {
+  width: 50%;
+  padding: 16px 24px;
+  margin: 60px 0 10px;
+}
+
+.main-form table td {
+  padding: 10px;
+}
+
+.message-us {
+  display: flex;
+}
+
+.main-data {
+  padding: 16px 4px;
+  margin: 60px 0 10px 0;
+}
+
+.main-form table input[name="submit"] {
+  width: 100%;
+  background-color: rgb(239, 226, 110);
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.main-form table input[name="submit"]:hover {
+  background-color: #f3d22b;
+  cursor: pointer;
+}
+
+.main-data table td {
+  padding: 12px;
+}
+
+
+/* footer */
+footer {
+  height: 60px;
+  line-height: 60px;
+  text-align: end;
+  border-top: 2px solid black;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+
+
+/*PROFILE SECTION*/
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px ridge white;
+  font-family: 'Poppins';
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+#title-section1 {
+  font-size: 30pt;
+  line-height: 0pt;
+  font-weight: bold;
+  margin-left: 120px;
+  font-family: 'Montserrat';
+}
+
+.intro-text {
+  display: flex;
+  font-size: 16pt;
+  justify-content: justify;
+  margin-right: 120px;
+}
+
+.profile-text {
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+.vision-mission {
+  display: flex;
+  font-size: 16pt;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.vision {
+  display: flex;
+  font-size: 16pt;
+  justify-content: justify;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.mission {
+  display: flex;
+  font-size: 16pt;
+  justify-content: justify;
+  text-align: justify;
+  font-weight: 500;
+}
